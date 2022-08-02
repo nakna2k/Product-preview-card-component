@@ -44,11 +44,59 @@ body{
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    padding-left: 30px;
+    padding-left: 35px;
 }
 .titleTop{
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     text-transform: uppercase;
-    color: var(--NeutralColorDarkBlue);
+    color: var(--NeutralColorGrayBlue);
+    margin-top: 35px;
+
+}
+.titleBot{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 36px;
+    margin-top: 20px;
+    line-height: 35px;
+}
+.productDesc{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--NeutralColorGrayBlue);
+    line-height: 25px;
+
+}
+.priceBox{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.price{
+    font-size: 42px;
+    color: var(--PrimaryColorCyan);
+    font-family: 'Fraunces', sans-serif;
+}
+.priceBefore{
+    text-decoration: line-through;
+    margin-top: 15px;
+    color: var(--NeutralColorGrayBlue);
+}
+.productInfo > button{
+    text-align: center;
+    margin-top: 15px;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--PrimaryColorCyan);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: none;
+    line-height: 14px;
+}
+.productInfo > button > img{
+    padding-right: 10px;
 }
